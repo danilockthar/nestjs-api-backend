@@ -2,6 +2,9 @@ server:
   port: 3000
 
 db:
+  host: 'postgres'
+  username: 'postgres'
+  password: 'postgres'
   type: 'postgres'
   port: 5432
   database: 'taskmanager'
